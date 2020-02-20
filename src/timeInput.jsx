@@ -98,6 +98,8 @@ class TimeInput extends Component {
                 this.props.onTimeChange(val);
             }
 
+        } else {
+            this.props.onTimeChange('');
         }
 
     }
